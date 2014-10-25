@@ -1,0 +1,16 @@
+{% extends "layout.html" %}
+
+{% block title %}Graph{% endblock %}
+{% block head %}
+    {{ super() }}
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='graph.css') }}">
+    <script src="{{ url_for('static', filename='flotr2.js') }}"></script>
+{% endblock %}
+{% block content %}
+    <h1>Graph</h1>
+    <div id="container"></div>
+    <script>
+        var data = {{ data|tojson }};
+    </script>
+    <script src="{{ url_for('static', filename='graph.js') }}"></script>
+{% endblock %}
