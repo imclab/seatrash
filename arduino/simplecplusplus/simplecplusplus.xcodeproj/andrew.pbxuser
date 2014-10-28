@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 2FBBEAD608F335360078DB84 /* simplecplusplus */;
+		codeSenseManager = 492207111536F21400FC708E /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 355922522;
+			PBXWorkspaceStateSaveDate = 355922522;
+		};
+		perUserProjectItems = {
+			492207121536F24500FC708E /* PBXTextBookmark */ = 492207121536F24500FC708E /* PBXTextBookmark */;
+			492207381536F26300FC708E /* PBXTextBookmark */ = 492207381536F26300FC708E /* PBXTextBookmark */;
+		};
+		sourceControlManager = 492207101536F21400FC708E /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	2FBBEAD608F335360078DB84 /* simplecplusplus */ = {
+		activeExec = 0;
+	};
+	492207101536F21400FC708E /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	492207111536F21400FC708E /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	492207121536F24500FC708E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F28C570116D236300BF17B8 /* simplecplusplus.cpp */;
+		name = "simplecplusplus.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 396;
+		vrLoc = 0;
+	};
+	492207381536F26300FC708E /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F28C570116D236300BF17B8 /* simplecplusplus.cpp */;
+		name = "simplecplusplus.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 378;
+		vrLoc = 0;
+	};
+	4F28C570116D236300BF17B8 /* simplecplusplus.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1172, 3248}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 378}";
+			sepNavWindowFrame = "{{468, -202}, {1639, 909}}";
+		};
+	};
+}

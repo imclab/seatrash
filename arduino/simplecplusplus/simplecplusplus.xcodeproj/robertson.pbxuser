@@ -1,0 +1,86 @@
+// !$*UTF8*$!
+{
+	089C1669FE841209C02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Development;
+		activeTarget = 2FBBEAD608F335360078DB84 /* simplecplusplus */;
+		codeSenseManager = 1852855A1338D692004310BD /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 322493383;
+			PBXWorkspaceStateSaveDate = 322493383;
+		};
+		perUserProjectItems = {
+			1852858A1338D7D5004310BD /* PBXTextBookmark */ = 1852858A1338D7D5004310BD /* PBXTextBookmark */;
+			18528B481338DBD9004310BD /* PBXTextBookmark */ = 18528B481338DBD9004310BD /* PBXTextBookmark */;
+		};
+		sourceControlManager = 185285591338D692004310BD /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	185285591338D692004310BD /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1852855A1338D692004310BD /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1852858A1338D7D5004310BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F28C570116D236300BF17B8 /* simplecplusplus.cpp */;
+		name = "simplecplusplus.cpp: 165";
+		rLen = 77;
+		rLoc = 4779;
+		rType = 0;
+		vrLen = 464;
+		vrLoc = 4626;
+	};
+	18528B481338DBD9004310BD /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 4F28C570116D236300BF17B8 /* simplecplusplus.cpp */;
+		name = "simplecplusplus.cpp: 165";
+		rLen = 77;
+		rLoc = 4779;
+		rType = 0;
+		vrLen = 788;
+		vrLoc = 5106;
+	};
+	2FBBEAD608F335360078DB84 /* simplecplusplus */ = {
+		activeExec = 0;
+	};
+	4F28C570116D236300BF17B8 /* simplecplusplus.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1188, 3472}}";
+			sepNavSelRange = "{4779, 77}";
+			sepNavVisRange = "{5106, 788}";
+			sepNavWindowFrame = "{{15, 161}, {1453, 862}}";
+		};
+	};
+}

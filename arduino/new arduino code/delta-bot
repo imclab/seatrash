@@ -1,0 +1,106 @@
+#include <Servo.h>
+
+Servo A,B,C;
+#define AMax 180
+#define AMin 80
+#define BMax 180
+#define BMin 80
+#define CMax 180
+#define CMin 80
+#define time 300
+int APos,BPos,CPos;
+long start;
+
+void setup()
+{
+  Serial.begin(9600);  // start serial for output
+  APos=(AMax+AMin)/2;
+  BPos=(BMax+BMin)/2;
+  CPos=(CMax+CMin)/2;
+  A.write(APos);
+  B.write(BPos);
+  C.write(CPos);
+  A.attach(10);
+  B.attach(11);
+  C.attach(12);
+  delay(15);
+  start=millis();
+}
+
+void update()
+{
+  A.write(APos);
+  delay(25);
+  B.write(BPos);
+  delay(25);
+  C.write(CPos);  
+  delay(25);
+}
+
+void up() {
+  APos=AMax;
+  BPos=BMax;
+  CPos=CMax;
+  update();
+  delay(time);
+}
+
+void down() {
+  APos=AMin;
+  BPos=BMin;
+  CPos=CMin;
+  update();
+  delay(time);  
+}
+
+void moveA() {
+    APos=(AMax+AMin)/2;
+    BPos=BMin;
+    CPos=CMin;
+    update();
+    delay(time);
+    up();
+}
+
+void moveB() {
+    APos=AMin;
+    BPos=(BMax+BMin)/2;
+    CPos=CMin;
+    update();
+    delay(time);
+    up();
+}
+
+void moveC() {
+    APos=AMin;
+    BPos=BMin;
+    CPos=(CMax+CMin)/2;
+    update();
+    delay(time);
+    up();
+}
+
+void exercise() {
+    down();
+    up();
+}
+
+void loop() {
+  long dt=millis()-start;
+  Serial.print("dt=");
+  Serial.println(dt);
+  if (dt<10000) {
+    exercise();
+  }
+  else if (dt<20000) {
+    moveA();
+  }
+  else if (dt<30000) {
+    moveB();
+  }
+  else if (dt<40000) {
+    moveC();
+  } else {
+    up();
+  }
+}

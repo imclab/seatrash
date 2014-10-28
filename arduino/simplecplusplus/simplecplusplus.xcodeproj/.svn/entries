@@ -1,0 +1,41 @@
+8
+
+dir
+36855
+svn+ssh://ddz@intranet.cycling74.com/usr/local/newknox/trunk/maxmsp-sdk/simplemax/simplemax.xcodeproj
+svn+ssh://ddz@intranet.cycling74.com/usr/local/newknox
+
+
+
+2008-11-13T16:51:04.117205Z
+36801
+tim
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+f26a202f-c733-0410-9979-c71d7f46eb74
+
+project.pbxproj
+file
+
+
+
+
+2008-11-15T01:36:05.000000Z
+9ae530edbafa081938bf0496bb39d4bf
+2008-11-13T16:51:04.117205Z
+36801
+tim
+has-props
+
