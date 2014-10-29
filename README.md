@@ -1,5 +1,9 @@
-tidaltrash
+seatrash
 ==========
+
+various python & arduino code & resources (work-in-progress)...
+
+
 
 Dan Baker
 http://danbaker.me
@@ -15,8 +19,6 @@ James Tunick
 http://JamesTunick.com
 http://TheIMClab.com
 http://StudioIMC.com
-
-
 
 
 
