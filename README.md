@@ -1,12 +1,9 @@
 seatrash
 ==========
 
+code from Dan Baker's CO-CREATE Residency at IMC Lab
+
 various python & arduino code & resources (work-in-progress)...
-
-
-
-Dan Baker
-http://danbaker.me
 
 Proposal: To develop a software application for use on mobile devices that would enable large groups of people to control lighting and video projections at live events.  Instead of visuals being controlled by one person, the aim is to promote viewer interaction by giving the audience the ability to manipulate certain elements of the visuals, for example, by enabling a video effect using an app on their phone. The result would be a live, crowd-sourced visual experience, whereby the group is empowered to leverage control of their environment, and democratically construct their visual experience.
 
@@ -14,14 +11,8 @@ At the moment there are applications being designed to allow lighting designers 
 
 For me, one of the main goals is to promote artistic collaboration amongst large numbers of people, fostering an atmosphere where people have intentional and creative interactions.  Giving people the ability to collectively interact with the technology of their environment, creates an unconscious need to interact with each other in new and personal ways.
 
-
-James Tunick 
-http://JamesTunick.com
 http://TheIMClab.com
-http://StudioIMC.com
-
-
-
+http://danbaker.me
 
 CO-CREATE Residency
 http://TheIMClab.com/residency
